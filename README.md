@@ -2,7 +2,9 @@
 
 > ¿Tienes un proyecto que quieres dar a conocer  o quieres mejorar tu marca personal...? necesitas una web. 
  
-> ¿Te gustaría crear una web como esta con sólo escribir un [fichero de texto como este](https://raw.githubusercontent.com/francho/taller-github-pages/master/README.md)?    
+> ¿Te gustaría crear una web como esta con sólo escribir un [fichero de texto como este](https://raw.githubusercontent.com/francho/taller-github-pages/master/README.md)?
+
+> ¿o prefieres una web mas compleja en la que tu tienes el 100% del control [como esta](https://electron.atom.io)?    
 
 > ¿Quieres aprender como documentan y hacen sus webs muchos de los proyectos Open Source mas conocidos?
 
