@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Taller Github pages</title>
+
+  <link rel="stylesheet" href="assets/vendor/reveal.js/css/reveal.css">
+  <link rel="stylesheet" href="assets/vendor/reveal.js/css/theme/black.css" id="theme">
+
+  <!-- Theme used for syntax highlighting of code -->
+  <link rel="stylesheet" href="assets/vendor/reveal.js/lib/css/zenburn.css">
+
+</head>
+<body>
+<div class="reveal">
+
+  <div class="slides">
+
+    <section data-markdown>
+      <script type="text/template">
+        # Taller de creación de páginas web con Github Pages
+      </script>
+    </section>
+
+    <section data-markdown>
+      <script type="text/template">
+        ## ¿Qué vamos a aprender hoy?
+      </script>
+    </section>
+
+    <section data-markdown>
+      <script type="text/template">
+        ## ¿Qué NO vamos a aprender hoy?
+      </script>
+    </section>
+
+    <section data-markdown>
+      <script type="text/template">
+        ![](https://media.giphy.com/media/jH0ayzATulSGA/giphy.gif)
+      </script>
+    </section>
+
+    <section data-markdown>
+      <script type="text/template">
+        http://github.com/francho/taller-github-pages
+      </script>
+    </section>
+
+    <section data-markdown>
+      <script type="text/template">
+        ## Palabrejas
+
+        - HTML, CSS, Javascript
+        - Github
+        - Git
+        - Jekyll
+        - ...
+      </script>
+    </section>
+
+    <section data-markdown>
+      <script type="text/template">
+        ## Las tripas de una web
+
+        - HTML(5) + CSS(3) + JS
+        - Normalmente se sirve por el protocolo HTTP(S)://
+        - Necesitamos un navegador para verla
+          - Firefox
+          - Chrome
+          - Safari
+          - Explorer
+          - ...
+      </script>
+    </section>
+
+    <section>
+      <section data-markdown>
+        <script type="text/template">
+          ## Web dinámicas vs "estáticas"
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+          ## Generadores
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+          ## Páginas estáticas vs otros (Wordpress, Joomla, Blogger...)
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+          - Mi blog es lento
+          - Mi blog se cae o muestra errores raros
+          - Mi blog ha sido infectado por malware
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+          ## Wordpress (o Jomla, o...)
+          - tiene demasiadas funcionalidades ¿de verdad necesitas todo eso?
+          - necesita mucho hierro para soportar picos de visitas
+          - es lento
+          - es un objetivo para los hackers
+          - necesita hosting caros (con BBDD)
+        </script>
+      </section>
+    </section>
+
+    <section>
+      <section data-markdown>
+        <script type="text/template">
+          ## Qué es Github
+
+          - Desde 2010
+          - Desarrollo colaborativo
+          - Aloja proyectos
+          - La casa del OpenSource
+          - Se comió a SourceForge, Google Code...
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+          ## Vistazo a la topología de un proyecto de Github
+        </script>
+      </section>
+    </section>
+
+    <section data-markdown>
+      <script type="text/template">
+        ## Que es Git
+
+        - Control de versiones
+        - Creado por Linus Torvalds
+        - Sistema distribuido
+        - Ramas... repos local, remoto...
+        - Git Immersion - para aprender Git
+      </script>
+    </section>
+
+
+    <section data-markdown>
+      <script type="text/template">
+        ## Jekyll
+
+        - el GENERADOR
+        - genera el sitio basándose en:
+        - un fichero de configuración.
+        - unas plantillas.
+        - contenido escrito en Markdown
+      </script>
+    </section>
+
+    <section>
+
+      <section data-markdown>
+        <script type="text/template">
+          ## Sitios generados con Jekyll sitio codigo fuente
+        </script>
+      </section>
+
+
+      <section data-markdown>
+        <script type="text/template">
+          http://electronjs.org
+
+          https://github.com/electron/electronjs.org
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+          http://wtmz17.mullerestech.es/
+
+          https://github.com/MulleresTechZgz/wtmz17.github.io
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+          http://coderetreat.org/
+
+          https://github.com/coderetreat/coderetreat.github.io
+
+          (ver mapa de localizaciones generado con colecciones)
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+          http://pixelypincel.es/
+
+          https://github.com/pixelypincel/pixelypincel.github.io
+
+          (seccion de talleres generada con colecciones / integracion con widget de terceros)
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+          http://francho.org
+
+          https://github.com/francho/francho.github.io
+
+          (blog migrado de wordpress / integración continua con Travis para testear codigo correcto y urls rotas)
+        </script>
+      </section>
+    </section>
+    </section>
+
+    <section data-markdown>
+      <script type="text/template">
+        ## Creando una página para un proyecto
+      </script>
+    </section>
+
+    <section data-markdown>
+      <script type="text/template">
+        ## Trabajar en local
+
+        1. Preparar el entorno
+        2. Descargar el repositorio
+        3. Edición local
+        4. Subir cambios
+        5. Correr la web en local
+      </script>
+    </section>
+
+    <section data-markdown>
+      <script type="text/template">
+        ## Creando un blog
+      </script>
+    </section>
+
+    <section>
+      <section data-markdown>
+        <script type="text/template">
+          ## Píldoras "avanzadas"
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+          - Tuneando nuestra plantilla con Liquid
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+          - Redirecciones
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+          - Colecciones
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+          - Aparcando dominios
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+          - Colaborando en una web (PR)
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+          - Widgets de terceros (twitter, instagram, disqus...)
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+          - Integración con Travis
+        </script>
+      </section>
+    </section>
+
+    <section data-markdown>
+      <script type="text/template">
+        # Gracias
+
+        (ahora os toca jugar en casa)
+
+        ¿Dudas?... crear una issue en el repo
+
+        http://github.com/francho/taller-github-pages
+      </script>
+    </section>
+
+  </div>
+</div>
+
+
+<script src="assets/vendor/reveal.js/lib/js/head.min.js"></script>
+<script src="assets/vendor/reveal.js/js/reveal.js"></script>
+
+<script>
+  // More info https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
+    transition: 'slide', // none/fade/slide/convex/concave/zoom
+    // More info https://github.com/hakimel/reveal.js#dependencies
+    dependencies: [
+      {
+        src: 'assets/vendor/reveal.js/lib/js/classList.js', condition: function() {
+        return !document.body.classList;
+      }
+      },
+      {
+        src: 'assets/vendor/reveal.js/plugin/markdown/marked.js', condition: function() {
+        return !!document.querySelector('[data-markdown]');
+      }
+      },
+      {
+        src: 'assets/vendor/reveal.js/plugin/markdown/markdown.js', condition: function() {
+        return !!document.querySelector('[data-markdown]');
+      }
+      },
+      {
+        src: 'assets/vendor/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() {
+        hljs.initHighlightingOnLoad();
+      }
+      },
+      {src: 'assets/vendor/reveal.js/plugin/search/search.js', async: true},
+      {src: 'assets/vendor/reveal.js/plugin/zoom-js/zoom.js', async: true},
+      {src: 'assets/vendor/reveal.js/plugin/notes/notes.js', async: true}
+    ]
+  });
+</script>
+
+
+</body>
+</html>
