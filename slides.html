@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Taller Github pages</title>
+
+  <link rel="stylesheet" href="node_modules/reveal.js/css/reveal.css">
+  <link rel="stylesheet" href="node_modules/reveal.js/css/theme/black.css" id="theme">
+
+  <!-- Theme used for syntax highlighting of code -->
+  <link rel="stylesheet" href="node_modules/reveal.js/lib/css/zenburn.css">
+
+</head>
+<body>
+<div class="reveal">
+
+  <div class="slides">
+    <section data-markdown>
+      <script type="text/template">
+        ## ¿Qué vamos a aprender hoy?
+      </script>
+    </section>
+
+    <section data-markdown>
+      <script type="text/template">
+        ## ¿Qué NO vamos a aprender hoy?
+      </script>
+    </section>
+
+    <section data-markdown>
+      <script type="text/template">
+        http://github.com/francho/taller-github-pages
+      </script>
+    </section>
+
+    <section data-markdown>
+      <script type="text/template">
+        ## Las tripas de una web
+
+        - HTML(5) + CSS(3) + JS
+        - Normalmente se sirve por el protocolo HTTP(S)://
+        - Necesitamos un navegador para verla
+        - Firefox
+        - Chrome
+        - Safari
+        - Explorer
+        - ...
+      </script>
+    </section>
+
+    <section data-markdown>
+      <script type="text/template">
+        ## Web dinámicas vs "estáticas"
+      </script>
+    </section>
+
+    <section data-markdown>
+      <script type="text/template">
+        ## Generadores
+      </script>
+    </section>
+
+    <section>
+      <section data-markdown>
+        <script type="text/template">
+          ## Páginas estáticas vs otros (Wordpress, Joomla, Blogger...)
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+          - Mi blog es lento
+          - Mi blog se cae o muestra errores raros
+          - Mi blog ha sido infectado por malware
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+          - WordPress tiene demasiadas funcionalidades (de verdad necesitas todo eso)
+          - WordPress necesita mucho hierro para soportar picos de visitas
+          - WordPress es lento
+          - WordPress es un objetivo para los hackers
+          - WordPress necesita hosting caros (con BBDD)
+        </script>
+      </section>
+    </section>
+
+    <section data-markdown>
+      <script type="text/template">
+        ## Qué es Github
+
+        - Desde 2010
+        - Desarrollo colaborativo
+        - Aloja proyectos
+        - La casa del OpenSource
+        - Se comió a SourceForge, Google Code...
+      </script>
+    </section>
+
+    <section data-markdown>
+      <script type="text/template">
+        ## Vistazo a la topología de un proyecto de Github
+      </script>
+    </section>
+
+    <section data-markdown>
+      <script type="text/template">
+        ## Que es Git
+
+        - Control de versiones
+        - Creado por Linus Torvalds
+        - Sistema distribuido
+        - Ramas... repos local, remoto...
+        - Git Immersion - para aprender Git
+      </script>
+    </section>
+
+
+    <section data-markdown>
+      <script type="text/template">
+        ## Jekyll
+
+        - el GENERADOR
+        - genera el sitio basándose en:
+        - un fichero de configuración.
+        - unas plantillas.
+        - contenido escrito en Markdown
+      </script>
+    </section>
+
+    <section data-markdown>
+      <script type="text/template">
+        ## Sitios generados con Jekyll sitio codigo fuente
+
+        | sitio | codigo fuente | |
+        |-----|-------------|--|
+        | http://electronjs.org | https://github.com/electron/electronjs.org |
+        | http://wtmz17.mullerestech.es/ | https://github.com/MulleresTechZgz/wtmz17.github.io |
+        | http://coderetreat.org/ | https://github.com/coderetreat/coderetreat.github.io | mapa de localizaciones generado con colecciones |
+        | http://pixelypincel.es/ | https://github.com/pixelypincel/pixelypincel.github.io | seccion de talleres generada con colecciones / integracion con widget de terceros |
+        | http://francho.org | https://github.com/francho/francho.github.io | blog migrado de wordpress / integración continua (con Travis) para testear codigo correcto y urls rotas |
+
+      </script>
+    </section>
+
+    <section data-markdown>
+      <script type="text/template">
+        ## Palabrejas
+
+        - Escribimos en markdown de Github (Flavored Markdown)
+        - En las plantillas usamos Liquid
+        - "comiteamos" con Git
+      </script>
+    </section>
+
+    <section data-markdown>
+      <script type="text/template">
+        ## Trabajar en local
+
+        - Preparar el entorno
+        - Descargar el repositorio
+        - Edición local
+        - Subir cambios
+        - Correr la web en local
+      </script>
+    </section>
+
+    <section data-markdown>
+      <script type="text/template">
+        ## Creando una página para un proyecto
+      </script>
+    </section>
+
+
+    <section data-markdown>
+      <script type="text/template">
+        ## Creando un blog
+      </script>
+    </section>
+
+    <section data-markdown>
+      <script type="text/template">
+        ## Píldoras "avanzadas"
+
+        - Tuneando nuestra plantilla con Liquid
+        - Redirecciones
+        - Colecciones
+        - Aparcando dominios
+        - Colaborando en una web (PR)
+        - Widgets de terceros (twitter, instagram, disqus...)
+        - Integración con Travis
+      </script>
+    </section>
+
+    <section data-markdown>
+      <script type="text/template">
+        # Gracias
+
+        (ahora os toca jugar en casa)
+      </script>
+    </section>
+
+  </div>
+</div>
+
+
+<script src="node_modules/reveal.js/lib/js/head.min.js"></script>
+<script src="node_modules/reveal.js/js/reveal.js"></script>
+
+<script>
+  // More info https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
+    transition: 'slide', // none/fade/slide/convex/concave/zoom
+    // More info https://github.com/hakimel/reveal.js#dependencies
+    dependencies: [
+      {
+        src: 'node_modules/reveal.js/lib/js/classList.js', condition: function() {
+        return !document.body.classList;
+      }
+      },
+      {
+        src: 'node_modules/reveal.js/plugin/markdown/marked.js', condition: function() {
+        return !!document.querySelector('[data-markdown]');
+      }
+      },
+      {
+        src: 'node_modules/reveal.js/plugin/markdown/markdown.js', condition: function() {
+        return !!document.querySelector('[data-markdown]');
+      }
+      },
+      {
+        src: 'node_modules/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() {
+        hljs.initHighlightingOnLoad();
+      }
+      },
+      {src: 'node_modules/reveal.js/plugin/search/search.js', async: true},
+      {src: 'node_modules/reveal.js/plugin/zoom-js/zoom.js', async: true},
+      {src: 'node_modules/reveal.js/plugin/notes/notes.js', async: true}
+    ]
+  });
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "taller-github-pages",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:francho/taller-github-pages.git",
+  "author": "Francho Joven <lab@francho.org>",
+  "license": "MIT",
+  "dependencies": {
+    "reveal.js": "^3.6.0"
+  }
+}
