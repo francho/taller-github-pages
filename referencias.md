@@ -2,8 +2,5 @@
 
 ## Titulo 2
 
-Esto es una lista:
 
-- Opción 1
-- Opción 2
-- Opción 3
+- https://help.github.com/articles/basic-writing-and-formatting-syntax/
