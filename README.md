@@ -1,69 +1,57 @@
-# Creando páginas web con Github Pages
+# Taller creación web con Github Pages (3er tiempo)
 
-> ¿Tienes un proyecto que quieres dar a conocer  o quieres mejorar tu marca personal...? necesitas una web. 
- 
-> ¿Te gustaría crear una web sencilla como esta con sólo escribir un [fichero de texto como este](https://raw.githubusercontent.com/francho/taller-github-pages/master/README.md)?
+Un pequeño resumen de los temas que hemos tratado de una forma u otra en el taller de creación de páginas web del 28/11/2017 en la Remolacha Hacklab (ZAC)
 
-> ¿o prefieres una [web mas compleja en la que tu tienes el 100% del control](https://electron.atom.io)?    
+## Nivel básico
 
-> ¿Quieres aprender como documentan y hacen sus webs muchos de los proyectos Open Source mas conocidos?
+No hace falta instalar nada. Podemos crear y editar páginas en Github directamente desde su web
 
-¿Has contestado que **SI** a alguna de estas preguntas? pues este taller es para tí.
+1. Crea un repositorio (añade el README.md al crearlo y te ahorras un paso)
+2. Activa Github pages en las preferencias del repositorio y elige el tema que quieres usar
 
-## Objetivos
+TIP: Mírate [la ayuda de markdown Github](https://help.github.com/categories/writing-on-github/) para aprender a dar formato al texto 
 
-En este taller aprenderemos a:
- 
-- Crear y publicar páginas web o blogs con un aspecto muy “profesional” sin necesidad de tener conocimientos de diseño de páginas web.
-- Usar herramientas y recursos Open Source y/o gratuitos para crearlas.
-- Tener una visión glogal para poder sacar el máximo partido a Github Pages
+Puedes apliar información en [La documentación de Github pages](https://pages.github.com/)
 
-## Contenidos
+## Nivel intermedio
 
-1. Introducción
-  - ¿Qué es Github? ¿y Git?
-  - ¿Qué es GitHub pages? ¿y Jekyll?
-  - Diferencias con otros CMS (Wordpress, Blogger, Joomla...)
-  - ¿Qué es Markdown?
-  - Ejemplos de páginas que usan Github pages
-2. Preparación del entorno
-3. Publicando nuestra primera web en pages
-4. Creando un blog con Github pages
-5. Creando un página para un proyecto con Github pages
-6. Píldoras avanzadas (exprimiendo Github pages)
+Necesitarás configurar el entorno de desarrollo en tu ordenador para poder trabajar.
 
-## Destinatarios
+Para estos pasos es necesario tener unos mínimos conocimientos técnicos (uso básico de git, instalación de aplicaciones)
 
-Cualquier persona que quiera crear una página personal, una web para su proyecto o empesa, o simplemente quiera aprender a hacer páginas web de una forma diferente.
+Revisa [la guia oficial de instalación](https://jekyllrb.com/docs/installation/) para ver que tienes todo lo necesario
 
-No es necesario tener conocimientos previos de HTML o diseño web (si los tienes no pasa nada, es posible que descubras otra forma de hacer webs)
+Usa [Jekyll](https://jekyllrb.com/docs/) para generar tu sitio. Puedes seguir [la guia de Github para hacerlo desde linea de comando](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)
 
-### Requisitos
+Ejecuta Jekyll en tu ordenador para poder ver como queda tu web sin tener que subirla. Github tambien tiene [una guia para esto](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)
 
-Si no la tienes ya, create una cuenta en [Github](http://github.com) ¿a qué estabas esperando?
+Personaliza tu web usando un tema. Puedes elegir uno de [Jekyll Themes](http://jekyllthemes.org/).
 
-Deberás venir con tu propio ordenador en el que instalaremos (mejor si lo traes ya instalado):
+Muchos temas ya traen el soporte para blogs "de serie", si no te puedes montar el tuyo siguiendo [las instrucciones de la documentación oficial para crear posts](https://jekyllrb.com/docs/posts/).
 
-- [Ruby](https://www.ruby-lang.org/es/downloads/)
-- [Git](https://git-scm.com/)
+## Nivel Avanzado
 
-Opcionalmente:
+Necesitarás conomocimentos de programación y/o diseño web.
 
-- Un editor avanzado como [Atom](https://atom.io/)
-- [Github Desktop](https://desktop.github.com/)
+Personaliza tu propio tema (puedes partir de uno ya hecho y modificarlo). Investiga la carpeta `_layouts`. Puedes leer [la sección de personalización del manual oficial](https://jekyllrb.com/docs/templates/).
 
-## Detalles:
+Crea una colección (como por ejemplo los [talleres de la web Pixel y Pincel](https://github.com/pixelypincel/pixelypincel.github.io/tree/master/_talleres)). En el manual tambien tienes una [sección que te ayudará a entenderlo](https://jekyllrb.com/docs/collections/)
 
-| ![francho](https://avatars0.githubusercontent.com/u/585421?s=120&v=4) | El taller será impartido por [Francho Joven](http://francho.org/about). Unutopico, maño, geek, artesano de software (trabajando en Internet desde 1997), aprendiz ágil, programador en activo, sysop retirado, maker emocionado con Zagales Hacklab, papá a tiempo completo. |
+Testea tu web de forma automática con un servidor de integración continua como Travis. Tienes [las instrucciones para configurarlo en esta web](https://jaicab.com/2016/04/05/travis-for-jekyll-on-github-pages/)
 
-- **Fecha:** 28-11-2017
-- **Horario:** 17 a 21 h
-- **Precio:** 16 € / curso
-- **Lugar:** La Remolacha HackLab - Zaragoza Activa La Azucarera
+Prueba a integrar widgets de terceros en tu web (Twitter, Instagram, Disqus...). Puedes ver ejemplos en el [código fuente de la web de Pixel y Pincel](https://github.com/pixelypincel/pixelypincel.github.io) y en el de [mi blog](https://github.com/francho/francho.github.io)
 
-<a class="btn" href="https://www.zaragoza.es/zac/events/42923">Quiero Ir</a>
+## Otros enlaces que hemos comentado
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1803.2730458613757!2d-0.8699916683546757!3d41.66372001206642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd59146209ca72f7%3A0x4f010540b6c4d82e!2sZaragoza+Activa!5e0!3m2!1ses!2ses!4v1509996327578" width="500" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+- [Atom](http://atom.io), un editor de código muy potente creado por Github
+- [Los slides de la charla](slides)
 
+## ¿Por donde sigo?
 
-![Zaragoza Activa](https://www.zaragoza.es/zac/resources/images/menuzac.jpg)
+Lo mejor es experimentar, prueba a montar tu web, experimenta, mira código fuente de otros (puedes empezar por los ejemplos de las slides)
+
+## ¿Dudas?
+
+Si viniste al workshop y tienes alguna duda [abre un ticket](https://github.com/francho/taller-github-pages/issues) y trataré de solucionartela.
+
+De esta forma el resto [buscando en los tickets](https://github.com/francho/taller-github-pages/issues?utf8=%E2%9C%93&q=is%3Aissue+) podrán aprovechar la respuesta tambien
