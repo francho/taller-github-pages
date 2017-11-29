@@ -55,7 +55,9 @@ Lo mejor es experimentar, prueba a montar tu web, experimenta, mira código fuen
 
 ## ¿Dudas?
 
-Si viniste al workshop y tienes alguna duda [abre un ticket](https://github.com/francho/taller-github-pages/issues) y trataré de solucionartela
+Si viniste al workshop y tienes alguna duda [abre un ticket](https://github.com/francho/taller-github-pages/issues) y trataré de solucionartela.
+
+De esta forma el resto [buscando en los tickets](https://github.com/francho/taller-github-pages/issues?utf8=%E2%9C%93&q=is%3Aissue+) podrán aprovechar la respuesta tambien
 
 
 
